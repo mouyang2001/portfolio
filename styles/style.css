@@ -1,0 +1,299 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  /* background-color: #161615; */
+  background-color: white;
+}
+
+/* Global */
+.container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.background {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text-area {
+  color: #777777;
+}
+
+.title-area {
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header nav {
+  width: 100%;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  float: left;
+  display: block;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+header a:hover {
+  font-weight: bold;
+}
+
+/*Showcase*/
+.showcase .background {
+  background-image: url("../img/showcase-bg.jpg");
+  height: 100vh;
+}
+
+.showcase .title-area {
+  text-align: center;
+  margin-top: 200px;
+  white-space: nowrap;
+}
+
+.showcase .title-area h1 span {
+  box-shadow:
+  0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  background-color: #777777;
+  font-size: 64px;
+}
+
+.showcase .title-area h4 {
+  font-weight: 100;
+}
+
+/*About*/
+.about {
+  height: 100vh;
+}
+
+.about .quote {
+  padding: 10px 0px;
+}
+
+.about .title-area {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #777777;
+}
+
+.about .title-area p {
+  font-size: 16px;
+}
+
+.about img{
+  float: left;
+  max-width: 480px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.about .text-area {
+  float: right;
+  width: 68%;
+}
+
+.about .text-area p {
+  margin-top: 0;
+}
+
+/*Portfolio*/
+.portfolio-title .background {
+  background-image: url("../img/portfolio-bg.jpg");
+  height: 240px;
+}
+
+.portfolio-title .title-area {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.portfolio h1 {
+  text-align: center;
+  color: #777;
+  padding-top: 64px;
+}
+
+.portfolio {
+  height: 100vh;
+}
+
+/*Gallery*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .text {
+  padding: 2px 16px;
+}
+
+.responsive {
+  padding: 15px 16px;
+  float: left;
+  width: 30%;
+}
+
+/*flip card TODO work in progress*/
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 360px;
+  perspective: 1000px;
+}
+
+.flip-card img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+}
+
+.flip-card-inner .text {
+  padding: 2px 16px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: white;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+}
+
+
+/*Contact*/
+.contact-title .background {
+  background-image: url("../img/contact-bg.jpg");
+  height: 240px;
+}
+
+.contact-title .title-area {
+   text-align: center;
+   padding-top: 60px;
+}
+
+.contact {
+  height: 100vh;
+  text-align: center;
+}
+
+.contact .media {
+  margin-top: 200px;
+}
+
+.contact .media li {
+  list-style: none;
+  display: inline-block;
+  font-size: 64px;
+  margin: 10px;
+  color: grey;
+}
+
+.contact .media li a{color: grey}
+.contact .media li a:visited { text-decoration: none; color:grey; }
+.contact .media li a:hover { text-decoration: none; color:grey; }
+.contact .media li a:focus { text-decoration: none; color:grey; }
+.contact .media li a:hover, .media li a:active { text-decoration: none; color:black }
+
+/*footer*/
+footer {
+  text-align: center;
+}
+
+/*Responsive*/
+.sticky {
+  position: fixed;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 8px -2px rgba(0,0,0,.5)
+}
+
+@media (max-width: 768px) {
+  header nav,
+  header li,
+  .showcase,
+  .about img,
+  .about .text-area {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .about,
+  .portfolio {
+    margin-bottom: 480px;
+  }
+
+  img {
+    float: none;
+    padding-bottom: 60px;
+  }
+
+  .responsive {
+    width: 90%;
+    margin: 6px 0;
+  }
+}
