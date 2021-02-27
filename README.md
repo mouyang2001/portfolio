@@ -2,5 +2,5 @@
 My porfolio website for my software engineering career.
 Contains links to projects and contact details.
 
-#Technologies
+# Technologies
 Html, Javascript, CSS
