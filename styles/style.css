@@ -102,7 +102,7 @@ header a:hover {
 
 .about .title-area {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 64px;
   margin-bottom: 50px;
   color: #777777;
 }
@@ -131,7 +131,7 @@ header a:hover {
 
 /*Portfolio*/
 .portfolio {
-  height: 120vh;
+  height: 1800px;
 }
 
 .portfolio-title .background {
@@ -155,7 +155,7 @@ header a:hover {
 .portfolio h1 {
   text-align: center;
   color: #777;
-  padding-top: 64px;
+  padding-top: 84px;
 }
 
 .portfolio h2 {
@@ -291,7 +291,7 @@ footer {
   }
 
   .portfolio {
-    height: 300vh;
+    height: 4200px;
   }
 
   img {
