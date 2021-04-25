@@ -274,6 +274,10 @@ footer {
   .container {
     width: 90%
   }
+
+  .about {
+    margin-bottom: 200px;
+  }
 }
 
 @media (max-width: 1080px) {
