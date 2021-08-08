@@ -23,16 +23,16 @@ class App extends Component {
 
   getResumeData(){
     $.ajax({
-      url:'portfolio/resumeData.json',
-      dataType:'json',
+      url: "https://mouyang2001.github.io/portfolio/resumeData.json",
+      dataType: "json",
       cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
+      success: function (data) {
+        this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err){
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
-      }
+      },
     });
   }
 
