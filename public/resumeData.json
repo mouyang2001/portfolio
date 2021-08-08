@@ -1,77 +1,55 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name": "Matthew Ouyang",
+    "occupation": "Software Engineer",
+    "description": "",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio": "I have always been interested in technology and it's importance in the world. It started in high school Mechatronics class where we built and programmed robots using micro controllers. It was then I discovered my passion for coding and engineering. I enjoy problem solving and automating the world around you through software programming. I am excited for the future prospect of software in AI, Cloud Computing, Autonomous vehicles and space travel. These are some of the many feilds I'm hungry to pursue. Throughout my career I want to make a positive and lasting impact on people for many generations to come.",
+    "contactmessage": "I look forward discussing an exciting opportunity with you.  Please feel free to contact me.",
+    "email": "mouyang2001@gmail.com",
+    "phone": "022 311 3644",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city": "Auckland",
+      "country": "New Zealand",
+      "zip": "0600"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "http://www.google.com",
+    "resumedownload": "https://drive.google.com/file/d/1t7GDR5wPSuu40Njmkt0p4TTWIJvFjVcY/view?usp=sharing",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/matthew-ouyang-7a732719b/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "https://github.com/mouyang2001",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "My Technical skills",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of Auckland",
+        "degree": "Bachelor of Engineering",
+        "graduated": "2020-2023",
+        "description": "Achieved a cumulative GPA of 8.6 / 9 to date and included on the Dean’s Honours List 2020. University tour guide and new student mentor (Feb-Mar 2021). Active member of the University’s Muay Thai club and Kiwi Asian social club."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Web Development Consulting Club",
+        "title": "Web Developer ",
+        "years": "May 2021 - Present",
+        "description": "Develop and maintain the Auckland student pool association's event and registration app."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Mcdonalds",
+        "title": "Crew Member",
+        "years": "December 2018 - Januaury 2020",
+        "description": "Received the Employee of the Month Award in January and February 2019 for consistently exceeded monthly KPIs and maintaining customer satisfaction ratings. Due to outstanding performance and demonstrating strong leadership/hospitality skills, given further responsibility for managing the kitchen in an unsupervised capacity.Developed and taught crew members new efficient methods of preparing food, which in turn led to exceeding monthly KPI targets."
       }
     ],
     "skills": [
@@ -80,7 +58,7 @@
         "level": "60%"
       },
       {
-        "name": "Illustrator",
+        "name": "Javascript",
         "level": "55%"
       },
       {
@@ -96,11 +74,15 @@
         "level": "80%"
       },
       {
-        "name": "VueJs",
+        "name": "Java",
         "level": "50%"
       },
       {
-        "name": "MongoDB",
+        "name": "Matlab",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
         "level": "80%"
       }
     ]
@@ -108,34 +90,40 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Event Registration & Payment",
+        "category": "Auckland Student Pool Association event registration and payment app.",
+        "image": "aspa.jpg",
+        "url": "https://aspa.wdcc.co.nz/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Virtual Team Pet",
+        "category": "DEVS Hackathon 1st place app. Virtual team pet to promote good coding practices.",
+        "image": "developets.png",
+        "url": "https://developets-client.herokuapp.com"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Small business lead generation",
+        "category": "MYOB IT challenge small business lead generation web app prototype. Top 3 NZ.",
+        "image": "genie.jpg",
+        "url": "https://genie-app-digital.herokuapp.com/"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Android messaging app",
+        "category": "Add friends, send messages and photos.",
+        "image": "clique.jpg",
+        "url": "https://github.com/mouyang2001/Clique"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Social note sharing",
+        "category": "Take notes and share with others. Like comment and recieve notfications.",
+        "image": "jotter.jpg",
+        "url": "https://jotter-8af9d.web.app/"
+      },
+      {
+        "title": "Traffic Jam terminal game",
+        "category": "Simulate the game of traffic jam within the terminal, university project.",
+        "image": "trafficjam.jpg",
+        "url": "https://www.onlinegdb.com/HJT5U_DGO"
       }
     ]
   },
