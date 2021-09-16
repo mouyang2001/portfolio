@@ -3484,6 +3484,30 @@ input[type="button"].btn--primary:focus {
 /* ------------------------------------------------------------------- 
  * ## hero content
  * ------------------------------------------------------------------- */
+#text {
+	display: inline-block;
+	color: #fef2c9;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 20px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: white; 
+	}
+}
+
 .s-hero__content {
     height: 100%;
     -ms-flex-align: center;
@@ -3506,7 +3530,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-hero__content h3 {
-    font-family: var(--font-2);
+    font-family: "Consolas";
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 1.667;
