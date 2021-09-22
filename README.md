@@ -1,1 +1,3 @@
-# My porfolio website
+# My portfolio website
+
+Made using HTML CSS Javascript.
